@@ -1,0 +1,12 @@
+## To run Font converter
+## ===================== 
+1. sh compile.sh
+
+2. sh addseparator.sh   
+      Note:: provide 'args' file to run separately. 
+             this shell adds a separator for english word in hindi xml file
+             (to avoid font conversion of an english word)
+
+3. sh fontconversion.sh  <xml-file>
+      Ex:  sh fontconversion.sh HND.xml
+           O/p::  HND.xml.wx
